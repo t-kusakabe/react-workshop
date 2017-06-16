@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/app.jsx',
   output: { path: path.join(__dirname, 'www'), filename: 'bundle.js' },
   devServer: {
     contentBase: 'www'
